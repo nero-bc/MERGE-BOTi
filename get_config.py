@@ -3,6 +3,7 @@ from __init__ import LOGGER
 import os
 import subprocess
 from dotenv import load_dotenv
+from config import Config
 
 CONFIG_FILE_URL = os.environ.get('CONFIG_FILE_URL')
 try:
